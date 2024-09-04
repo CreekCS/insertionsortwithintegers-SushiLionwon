@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class InsSortInt {
     public static void main(String[] args) throws Exception {
-        Scanner scanner = new Scanner(new File("numbers.txt"));
+        Scanner scanner = new Scanner(new File("randInts.txt"));
         int[] arr = new int[1000]; 
         int count = 0;
 
